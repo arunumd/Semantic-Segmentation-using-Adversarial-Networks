@@ -4,6 +4,8 @@ import os, sys
 
 import chainer
 
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
+
 import utils
 
 def main():
